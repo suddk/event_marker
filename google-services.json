@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "430629044315",
+    "project_id": "eventmarker-5dc08",
+    "storage_bucket": "eventmarker-5dc08.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:430629044315:android:9e4ca7180026340715ff7e",
+        "android_client_info": {
+          "package_name": "com.example.eventmarker"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCyIoht3POLYQWyTWHXAzxRPq1H5c9npcQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
