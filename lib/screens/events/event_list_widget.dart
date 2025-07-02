@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
-import '../controllers/event_controller.dart';
-import '../controllers/auth_controller.dart';
+import '../../controllers/event_controller.dart';
+import '../../controllers/auth_controller.dart';
 
 class EventListWidget extends StatefulWidget {
   const EventListWidget({super.key});

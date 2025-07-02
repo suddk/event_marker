@@ -119,6 +119,21 @@ class EventController with ChangeNotifier {
   }
 }
 
+  Future<void> loadGroupEvents(String groupId) async {
+    _setLoading(true);
+    _setError(null);
+
+    try {
+      final groupEvents = await _eventService.getEventsForGroup(groupId);
+      _events = groupEvents;
+    } catch (e) {
+      _setError('Error loading group events');
+    } finally {
+      _setLoading(false);
+    }
+  }
+
+
   /// 🔒 Archive outdated events (system/maintenance use)
   Future<void> archivePastEvents() async {
     try {
