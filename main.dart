@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:provider/provider.dart';
-import 'controllers/auth_controller.dart';
-import 'controllers/group_controller.dart';
-import 'controllers/event_controller.dart';
-import 'firebase_options.dart';
-import 'screens/auth/login_screen.dart';
-import 'screens/home/home_screen.dart';
+import 'package:event_marker/controllers/auth_controller.dart';
+import 'package:event_marker/controllers/group_controller.dart';
+import 'package:event_marker/controllers/event_controller.dart';
+import 'package:event_marker/firebase_options.dart';
+import 'package:event_marker/screens/auth/login_screen.dart';
+import 'package:event_marker/screens/home/home_screen.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
