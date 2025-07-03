@@ -4,7 +4,7 @@ import '../../controllers/auth_controller.dart';
 import '../../controllers/group_controller.dart';
 import '../../controllers/event_controller.dart';
 import '../group/group_list_screen.dart';
-import '../event/event_list_screen.dart';
+import '../events/event_list_screen.dart';
 import '../profile/profile_screen.dart';
 
 class HomeScreen extends StatefulWidget {
