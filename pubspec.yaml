@@ -8,6 +8,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+#  flutter_timezone: ^1.0.7
 
   firebase_core: 2.24.2
   firebase_auth: 4.15.3
@@ -29,8 +30,9 @@ dependencies:
 
   # Optional (keep only if used)
   url_launcher: ^6.2.6
-  flutter_local_notifications: ^16.3.2
-  flutter_native_timezone: ^2.0.0
+  flutter_local_notifications: ^15.0.0
+  flutter_native_timezone:
+    path: packages/flutter_native_timezone
   shared_preferences: ^2.2.3
 
 dev_dependencies:
@@ -47,6 +49,7 @@ dependency_overrides:
       url: https://github.com/miguelpruivo/flutter_file_picker.git
       ref: master
   cloud_firestore: ^4.14.0
+#  flutter_local_notifications: 15.0.0
 
 
 

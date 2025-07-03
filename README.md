@@ -77,7 +77,7 @@ uuid: ^4.2.1
 file_picker: ^6.1.1
 path_provider: ^2.1.3
 permission_handler: ^11.3.1
-flutter_local_notifications: ^16.3.2
+flutter_local_notifications: ^15.0.0
 ```
 
 Then run:
