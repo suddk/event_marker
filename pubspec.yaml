@@ -30,7 +30,7 @@ dependencies:
 
   # Optional (keep only if used)
   url_launcher: ^6.2.6
-  flutter_local_notifications: ^15.0.0
+#  flutter_local_notifications: ^15.0.0
   flutter_native_timezone:
     path: packages/flutter_native_timezone
   shared_preferences: ^2.2.3
